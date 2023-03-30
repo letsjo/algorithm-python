@@ -14,3 +14,6 @@ for, while 등의 반복문을 사용해 봅시다.
 
 ## **[STEP 5 문자열](https://github.com/letsjo/python_algorithm_baekjoon/issues/6)**
 문자열을 다루는 문제들을 해결해 봅시다.
+
+## **[STEP 6 심화 1](https://github.com/letsjo/python_algorithm_baekjoon/issues/7)**
+지금까지의 프로그래밍 문법으로 더 어려운 문제들을 풀어봅시다.
