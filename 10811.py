@@ -15,4 +15,5 @@ for _ in range(M):
     for changeValue in baskets[start:stop:-1]:
         baskets[changeIndex] = changeValue
         changeIndex += 1
-    print(baskets)
+
+print(' '.join(baskets))
