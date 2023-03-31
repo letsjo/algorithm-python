@@ -2,20 +2,14 @@
 
 N, M = map(int, input().split())
 A = [[] for _ in range(N)]
-B = [[] for _ in range(N)]
-
-
-def createList(arr):
-    for i in range(N):
-        for value in list(map(int, input().split())):
-            arr[i].append(value)
-    return arr
-
-
-A = createList(A)
-B = createList(B)
 
 for i in range(N):
-    for j in range(M):
-        print(A[i][j]+B[i][j], end=' ')
+    for value in list(map(int, input().split())):
+        A[i].append(value)
+
+for i in range(N):
+    j = 0
+    for value in list(map(int, input().split())):
+        print(A[i][j]+value, end=' ')
+        j += 1
     print()
