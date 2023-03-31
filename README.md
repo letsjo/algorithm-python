@@ -24,3 +24,6 @@ for, while 등의 반복문을 사용해 봅시다.
 
 ## **[STEP 8 일반 수학 1](https://github.com/letsjo/python_algorithm_baekjoon/issues/9)**
 수학적 사고력을 길러 봅시다.
+
+## **[STEP 9 약수, 배수와 소수](https://github.com/letsjo/python_algorithm_baekjoon/issues/10)**
+약수와 배수는 정수론의 시작점이라고 할 수 있습니다.
