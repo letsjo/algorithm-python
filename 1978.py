@@ -1,13 +1,13 @@
 # 소수 찾기
-import math
-
 
 def isPrime(number):
     if (number < 2):
         return False
-    for i in range(2, math.ceil(number/2)+1):
+    i = 2
+    while (i*i <= number):
         if (number % i == 0):
             return False
+        i += 1
     return True
 
 
