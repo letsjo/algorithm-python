@@ -27,3 +27,6 @@ for, while 등의 반복문을 사용해 봅시다.
 
 ## **[STEP 9 약수, 배수와 소수](https://github.com/letsjo/python_algorithm_baekjoon/issues/10)**
 약수와 배수는 정수론의 시작점이라고 할 수 있습니다.
+
+## **[STEP 10 기하: 직사각형과 삼각형](https://github.com/letsjo/python_algorithm_baekjoon/issues/11)**
+간단한 도형으로 기하 문제풀이를 시작해 봅시다.
