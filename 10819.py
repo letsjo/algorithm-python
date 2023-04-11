@@ -25,3 +25,21 @@ def solution(li):
 
 solution([])
 print(answer)
+
+# 순열 사용해보기
+
+# import itertools
+
+# n = int(input())
+# in_list = list(map(int, input().split()))
+
+# permutationList = itertools.permutations(in_list, n)
+
+# answer = 0
+# for mixedList in permutationList:
+#     total = 0
+#     for i in range(n-1):
+#         total += abs(mixedList[i]-mixedList[i+1])
+#     answer = max(answer, total)
+
+# print(answer)
