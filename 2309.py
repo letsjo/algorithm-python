@@ -19,3 +19,15 @@ height.sort()
 
 for i in height:
     print(i)
+
+# 조합 라이브러리 사용해보기
+
+# import itertools
+# height = [int(input()) for _ in range(9)]
+
+# heightCombination = itertools.combinations(height, 7)
+
+# for heightList in heightCombination:
+#     if sum(heightList) == 100:
+#         print(*sorted(heightList), sep='\n')
+#         break
