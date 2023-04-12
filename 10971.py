@@ -9,18 +9,16 @@ answer = float('inf')
 
 def travelCity(start, now, count, sumWeight):
     global answer
-    if (N == count+1):
+    if N == count+1 and weightList[now][start] != 0:
         sumWeight += weightList[now][start]
         answer = min(answer, sumWeight)
         return
 
     for i in range(N):
-        if not visited[i] and weightList[now][i] > 0:
+        if not visited[i] and weightList[now][i] != 0:
             visited[i] = True
-            sumWeight += weightList[now][i]
-            travelCity(start, i, count+1, sumWeight)
+            travelCity(start, i, count+1, sumWeight+weightList[now][i])
             visited[i] = False
-            sumWeight -= weightList[now][i]
 
 
 for i in range(N):
