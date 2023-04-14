@@ -3,7 +3,7 @@
 N, C = map(int, input().split())
 buildings = sorted([int(input()) for _ in range(N)])
 
-start, end = buildings[0], buildings[len(buildings)-1]
+start, end = 0, buildings[len(buildings)-1]
 
 minimumDistances = []
 
