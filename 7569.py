@@ -23,14 +23,14 @@ dy = [0, 0, 1, -1, 0, 0]
 dz = [0, 0, 0, 0, 1, -1]
 
 
-def checkBoxes():
+def getTomatoDate():
     for i in range(H):
         for j in range(N):
             for k in range(M):
                 if boxes[i][j][k] == 1:
                     queue.append([i, j, k, 0])
 
-    while queue and state:
+    while queue:
         x, y, z, day = queue.popleft()
         for k in range(6):
             nx = x + dx[k]
@@ -53,6 +53,6 @@ def checkBoxes():
     return day
 
 
-result = checkBoxes()
+result = getTomatoDate()
 
 print(result)
