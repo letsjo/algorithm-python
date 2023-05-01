@@ -6,8 +6,6 @@ stringB = input()
 lengthA = len(stringA)
 lengthB = len(stringB)
 
-
-count = 0
 dp = [[0] * (lengthB + 1) for _ in range(lengthA + 1)]
 
 for i in range(1, lengthA+1):

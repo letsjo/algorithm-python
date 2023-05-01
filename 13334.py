@@ -22,6 +22,7 @@ for info in location:
         heapq.heappush(heap, info)
     while heap and heap[0][0] < startPoint:
         heapq.heappop(heap)
+
     maxPath = max(maxPath, len(heap))
 
 print(maxPath)
