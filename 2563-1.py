@@ -1,7 +1,7 @@
 # 색종이 2차
 
 countPaper = int(input())
-canvas = [[0]*101 for _ in range(101)]
+canvas = [[0]*100 for _ in range(100)]
 answer = 0
 
 for _ in range(countPaper):
