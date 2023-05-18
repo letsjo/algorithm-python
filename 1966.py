@@ -9,7 +9,7 @@ for _ in range(T):
     count = 0
 
     while True:
-        if queue[0][0] == max(queue, key=lambda x: x[0])[0]:
+        if queue[0][0] == max(queue)[0]:
             count += 1
             if queue[0][1] == M:
                 break
