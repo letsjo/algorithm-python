@@ -8,7 +8,7 @@ dic_count = {}
 answer = []
 
 for i in range(l):
-    number = input()
+    number = input().strip()
     dic_count[number] = i
 
 answer = sorted(dic_count.items(), key=lambda x:(x[1]))
