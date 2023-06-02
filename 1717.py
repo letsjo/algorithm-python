@@ -1,6 +1,7 @@
 # 집합의 표현 
 import sys
 input = sys.stdin.readline
+sys.setrecursionlimit(10 ** 6)
 
 n, m = map(int,input().split())
 numbers = [i for i in range(n+1)]
